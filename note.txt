@@ -1,4 +1,4 @@
-git study
+﻿git study
 1、git init 初始化git仓库
 2、git add <file> 添加文件到仓库<可反复多次使用，添加多个文件>
 3、git commit -m <message> 提交文件到仓库
@@ -28,4 +28,10 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
   git push origin master 普通推送master分支的所有内容
 5)git clone <路径> 克隆远程仓库
 
-
+13、git branch 查看分支
+14、git branch <name> 创建分支
+15、git checkout <name> 切换分支
+16、git checkout -b <name> 创建+切换分支
+17、git merge <name> 合并某分支到当前分支
+18、git branch -d <name> 删除已经合并的分支
+19、git branch -D <name> 强制删除分支，无论合并与否

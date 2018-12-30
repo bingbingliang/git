@@ -35,3 +35,5 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 17、git merge <name> 合并某分支到当前分支
 18、git branch -d <name> 删除已经合并的分支
 19、git branch -D <name> 强制删除分支，无论合并与否
+20、git log --graph 分支合并图
+21、

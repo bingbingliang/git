@@ -32,8 +32,8 @@ $ ssh-keygen -t rsa -C "youremail@example.com"
 14、git branch <name> 创建分支
 15、git checkout <name> 切换分支
 16、git checkout -b <name> 创建+切换分支
-17、git merge <name> 合并某分支到当前分支
 18、git branch -d <name> 删除已经合并的分支
 19、git branch -D <name> 强制删除分支，无论合并与否
-20、git log --graph 分支合并图
-21、
+20、git log --graph 展示分支合并图
+17、git merge <name> 快速合并，合并某分支到当前分支
+21、git merge --no-ff -m "merge with no-ff" dev 普通合并，可以看出曾经合并过，而fast forward合并后，看不出来。
